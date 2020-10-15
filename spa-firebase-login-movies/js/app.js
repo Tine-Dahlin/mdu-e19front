@@ -63,6 +63,8 @@ function logout() {
   document.querySelector('#imagePreview').src = "";
 }
 
+
+
 // ========== PROFILE PAGE FUNCTIONALITY ========== //
 // append user data to profile page
 function appendUserData() {

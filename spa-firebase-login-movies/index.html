@@ -37,6 +37,8 @@
     <div id="fav-movie-container" class="grid-container"></div>
   </section>
 
+
+
   <!-- profile page -->
   <section id="profile" class="page">
     <header class="topbar">
@@ -46,18 +48,34 @@
     <form>
       <label for="name">Name</label>
       <input type="text" id="name" placeholder="Type your name" required>
+
       <label for="mail">Mail</label>
       <input type="email" id="mail" placeholder="Type your mail" disabled>
-      <label for="birthdate">Birthdate</label>
-      <input type="text" id="birthdate" placeholder="Type your birthdate" required>
-      <label for="hairColor">Hair Color</label>
-      <input type="text" id="hairColor" placeholder="Type your hair color" required>
-      <label for="hairColor">Profile Image</label>
+
+      <label for="Location">Location</label>
+      <input type="text" id="Location" placeholder="Type your location" required>
+
+      <label for="language">Language</label>
+      <input type="text" id="language" placeholder="Type your language" required>
+
+      <label for="occupation">Occupation</label>
+      <input type="text" id="Occupation" placeholder="Type your occupation" required>
+
+      <label for="hobbies">Hobbies</label>
+      <input type="text" id="hobbies" placeholder="Type your hobbies" required>
+
+
+
+
+      <label for="profile image"></label>
       <input type="file" id="img" accept="image/*" onchange="previewImage(this.files[0], 'imagePreview')">
       <img id="imagePreview" class="image-preview">
       <button type="button" name="button" onclick="updateUser()">Save</button>
     </form>
   </section>
+
+
+
   <!-- login page -->
   <section id="login" class="page">
     <header class="topbar">
