@@ -1,4 +1,6 @@
 import personService from "../services/persons.js";
+
+
 export default class PersonsPage {
   constructor() {
     this.template();
